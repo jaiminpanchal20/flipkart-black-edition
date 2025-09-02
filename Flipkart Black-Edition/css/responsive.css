@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .search input{
+        margin: 0 0 0 429px;
+    }
+    .logo img{
+        margin: 0 -44px;
+    }
+    .card1,.card2,.card3{
+        margin: 0 0 0 -58px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .search input{
+         margin: 0 0 0 260px;
+    }
+}
+@media screen and (max-width: 600px){
+    .search input{
+         margin: 0 0 0 130px;
+    }
+}
